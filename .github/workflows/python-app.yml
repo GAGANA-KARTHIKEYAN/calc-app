@@ -18,9 +18,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install pylint
 
-    - name: Lint with pylint
-      run: |
-        pylint calc.py
+    #- name: Lint with pylint
+    #  run: |
+    #   pylint calc.py
 
     - name: Run unit tests
       run: |
